@@ -17,7 +17,7 @@ function TxtButton({onClickEvnt}:ButtonProps){
                 top: innerHeight/3.5,
                 left: -innerWidth/9,
               }}>
-                <img src={btnImg} onClick={onClickEvnt} alt=""/>
+                {/* <img src={btnImg} onClick={onClickEvnt} alt=""/> */}
         </Html>
     )
 
