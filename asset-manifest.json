@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mocab/static/css/main.073c9b0a.css",
+    "main.js": "/mocab/static/js/main.064e10f4.js",
+    "static/media/bg.png": "/mocab/static/media/bg.f392c64df10237c667db.png",
+    "static/media/small_btn.png": "/mocab/static/media/small_btn.b6ada1c14746413c03a1.png",
+    "index.html": "/mocab/index.html",
+    "main.073c9b0a.css.map": "/mocab/static/css/main.073c9b0a.css.map",
+    "main.064e10f4.js.map": "/mocab/static/js/main.064e10f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.064e10f4.js"
+  ]
+}
