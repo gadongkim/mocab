@@ -20,8 +20,8 @@ export default function DraggableCircles(): JSX.Element {
     // let objects:Object3D[] = [];
 
     useEffect(() => {
-      for(let i = 0; i <25; i++){
-        const [x,y,z] = [(Math.random() * ( 2.5 - -2.5 )) + -2.5, (Math.random() * ( 2.5 - -1 )) + -1, (Math.random() * ( 2.5 - -2.5 )) + -2.5];
+      for(let i = 0; i <30; i++){
+        const [x,y,z] = [(Math.random() * ( 2 - -2 )) + -2, (Math.random() * ( 2 - -1 )) + -1, (Math.random() * ( 2 - -2 )) + -2];
         tmpArr.push({x:x, y:y, z:z})
       }
       setLocationList(tmpArr)
@@ -32,7 +32,7 @@ export default function DraggableCircles(): JSX.Element {
       {
         locationList.map((value, key) => {
           console.log(key)
-            let tmp = key % 3 === 0 ? 0.03 : 0.09
+            let tmp = key % 3 === 0 ? 0.06 : 0.11
             return(
               <Draggable>
                 <Sphere key = {key} ref={meshRef} scale ={tmp} position={[value.x,value.y,value.z]}  >

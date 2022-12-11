@@ -6,4 +6,5 @@ export const DivBox = styled.div`
   -ms-user-select:none;
   user-select:none;
   color : #00fffd;
+  font-size: 1.5rem;
 `
