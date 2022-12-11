@@ -14,7 +14,7 @@ export default function FullScreenCanvas({ canvasref, children }: Props): JSX.El
   return (
     <Canvas
       camera={{
-        position: [0, 0, 8],
+        position: [0, 0, 5],
         fov: 50,
         aspect: innerWidth / innerHeight,
         near: 0.1,

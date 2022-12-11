@@ -8,7 +8,7 @@ interface ButtonProps {
     onClickEvnt : () => any
 }
 function TxtButton({onClickEvnt}:ButtonProps){
-
+//img -> 다시 출력해보기 
     return(
         <Html 
             onClick={onClickEvnt}
