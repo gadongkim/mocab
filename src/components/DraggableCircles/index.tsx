@@ -38,12 +38,11 @@ export default function DraggableCircles(): JSX.Element {
                 <Sphere key = {key} ref={meshRef} scale ={tmp} position={[value.x,value.y,value.z]}  >
                   <sphereGeometry />
                   <meshStandardMaterial color={0xFF3232} />
-                  <Html>
+                  {/* <Html>
                     <S.DivBox className="label" >x:{value.x.toFixed(2)}</S.DivBox>
                     <S.DivBox className="label">y:{value.y.toFixed(2)}</S.DivBox>
                     <S.DivBox className="label">z:{value.z.toFixed(2)}</S.DivBox>
-
-                  </Html>
+                  </Html> */}
                 </Sphere>
               </Draggable>
             )

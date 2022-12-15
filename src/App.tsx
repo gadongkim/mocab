@@ -33,7 +33,7 @@ function App() {
           attach="orbitControls" 
           ref={ControlRef} 
           autoRotate={true}  
-          autoRotateSpeed = {0.2} 
+          autoRotateSpeed = {0.5} 
           enableDamping={true} 
           enableZoom={true} 
           minZoom={4}
