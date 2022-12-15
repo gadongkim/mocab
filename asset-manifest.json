@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mocab/static/css/main.073c9b0a.css",
-    "main.js": "/mocab/static/js/main.0d0ac57f.js",
-    "static/media/bg.png": "/mocab/static/media/bg.f392c64df10237c667db.png",
+    "main.js": "/mocab/static/js/main.e62530b9.js",
+    "static/media/bg.png": "/mocab/static/media/bg.8a773160dfe9d4e9abaa.png",
     "index.html": "/mocab/index.html",
     "main.073c9b0a.css.map": "/mocab/static/css/main.073c9b0a.css.map",
-    "main.0d0ac57f.js.map": "/mocab/static/js/main.0d0ac57f.js.map"
+    "main.e62530b9.js.map": "/mocab/static/js/main.e62530b9.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.0d0ac57f.js"
+    "static/js/main.e62530b9.js"
   ]
 }
